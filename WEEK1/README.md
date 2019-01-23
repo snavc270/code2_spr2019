@@ -43,9 +43,7 @@ What topics are we feeling iffy on?
 
 
 ### Question 1. 
-
 Set up an "interface" that display a string of text from a string array.
-
 ![](https://github.com/snavc270/code2_spr2019/blob/master/WEEK1/question1.gif "")
 
 Psuedocode: 
@@ -56,21 +54,33 @@ Psuedocode:
 5. Calculate distance between the mouse and your circles 
 6. Use a conditional to check if distance is withing the area of the circle, then change the index position in the string array 
 
+
+
+
 ### Question 2. 
 Use the map function to map the background gradient to the X and Y mouse positions. 
 
 ![](https://github.com/snavc270/code1_Fall2018/blob/master/MIDTERM_2/question8.gif?raw=true "")
 
+
+
+
 ### Question 3. 
 Set up a 2 dimentional array of rectangles. Change color (only one time!) of an individual square from white to a random color. 
-
+![](https://github.com/snavc270/code2_spr2019/blob/master/WEEK1/question3.gif "")
 
 HINT you'll need a boolean array 
+
+
+
 
 ### Question 4. 
 Use trig functions to oscillate an ellipse horizontally, then change to vertically whenever it is clicked on. 
 
-![]()
+![](https://github.com/snavc270/code2_spr2019/blob/master/WEEK1/question4.gif "")
+
+
+
 
 ### Homework 
 
