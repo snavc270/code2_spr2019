@@ -7,14 +7,14 @@
 #### What is git? 
 Put simply, a distributed version control system. Allowing you to save and keep track of versions of your code, revert to a previous version, and recover changes. 
 
-Working directory = your folder on your computer 
-Staging area = prepping files to be added 
+Working directory = your folder on your computer. 
+Staging area = prepping files to be added.  
 Local repository = your git file that will be pushed to...
 
 Remote repository = the repository you set up on a server (we use github put there are other platforms that you can use like sourcetree or bitbucket)
 
-Remote
 ![](https://rachelcarmena.github.io/img/cards/posts/how-to-teach-Git/general-drawing.png "")
+
 
 #### When we update our remote repository 
 ![](https://raw.githubusercontent.com/rachelcarmena/how-to-teach/master/git/add-commit-push.png "")
