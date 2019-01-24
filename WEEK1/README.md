@@ -26,7 +26,7 @@ Remote repository = the repository you set up on a server (we use github put the
 
 #### additional resources: 
 [Setting up a new repos cheat sheet](https://docs.google.com/presentation/d/1JFfe_xU1pyP3_8GZtQXDpS0sqeOf_m8w23NU1K_4my8/edit?usp=sharing)
-
+[Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
 
 
