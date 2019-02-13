@@ -27,30 +27,30 @@
 
 2. Clone that forked repos:
 
-	git clone (the url to that repos)
+	**git clone (the url to that repos)**
 
 
 3. Add your upstream remote: 
 
-	cd (the folder of your local clone)
+	**cd (the folder of your local clone)
 	git remote add upstream (the url of the ORIGINAL github repos)
 
 	git fetch upstream 
-	git merge upstream/master 
+	git merge upstream/master**
 
 
 4. Adding a branch: 
 	*In order to not mess up the orginal project and avoid merge conflicts, 
 	it is good practice to create another branch for the updates you want to make*
 
-	git checkout -b (the name of your branch)
+	**git checkout -b (the name of your branch)**
 
 
 5. Committing & pushing: 
 	*Make sure your only committing and pushing to your branch* 
 
-	git commit -am "your commit message"
-	git push origin (the name of your branch)
+	**git commit -am "your commit message"
+	git push origin (the name of your branch)**
 
 
 
