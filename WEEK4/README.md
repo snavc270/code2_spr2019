@@ -19,15 +19,18 @@
 
 
 ## Forking a project  
-1. Fork the project on github.com 
 
-	![](https://cdn.tutsplus.com/net/uploads/2013/08/github_header.png "") 
+1. Fork the project on github.com: 
 
-2. Clone that forked repos
+	![](https://cdn.tutsplus.com/net/uploads/2013/08/github_header.png "")
+
+
+2. Clone that forked repos:
 
 	git clone (the url to that repos)
 
-3. Add your upstream remote 
+
+3. Add your upstream remote: 
 
 	cd (the folder of your local clone)
 	git remote add upstream (the url of the ORIGINAL github repos)
@@ -35,15 +38,16 @@
 	git fetch upstream 
 	git merge upstream/master 
 
-4. Adding a branch 
+
+4. Adding a branch: 
 	*In order to not mess up the orginal project and avoid merge conflicts, 
 	it is good practice to create another branch for the updates you want to make*
 
 	git checkout -b (the name of your branch)
 
 
-5. Committing & pushing 
-	*Make sure your only committing and pushing to your branch 
+5. Committing & pushing: 
+	*Make sure your only committing and pushing to your branch* 
 
 	git commit -am "your commit message"
 	git push origin (the name of your branch)
