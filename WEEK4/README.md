@@ -35,7 +35,7 @@
 	**cd (the folder of your local clone)**
 	**git remote add upstream (the url of the ORIGINAL github repos)**
 
-	**git fetch upstream**
+	**git fetch upstream**</br>
 	**git merge upstream/master**
 
 
