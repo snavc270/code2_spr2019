@@ -32,11 +32,11 @@
 
 3. Add your upstream remote: 
 
-	**cd (the folder of your local clone)
-	git remote add upstream (the url of the ORIGINAL github repos)
+	**cd (the folder of your local clone)**
+	**git remote add upstream (the url of the ORIGINAL github repos)**
 
-	git fetch upstream 
-	git merge upstream/master**
+	**git fetch upstream**
+	**git merge upstream/master**
 
 
 4. Adding a branch: 
