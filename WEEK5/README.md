@@ -53,14 +53,13 @@ Branches are an important tool to work on certain aspects of a project without c
 
 
 ## Homework 
-1. Create a switch that changes scenes based on input (you can use multiple sketches that you've already programmed)
-//make character that jumps up and down 
-2. Create a state machine that changes the behavior of an object based on user input 
-//change the scene depending on key presses 
-3. Create a branch on your git project with a partner. Commit a change to this branch 
+1. Create a switch that changes scenes for your character based on input 
+2. Create a state machine that changes the behavior of a character with input (i.e. make you character appearance change when they jump)
 
 ## Challenges 
-1. Use a state system to change the behavior of your paddle in your breakaway game 
+1. Use a state system to change the behavior of your paddle in your breakaway game (maybe the paddle changes velocity, or gets smaller, or makes the ball move in slow motion)
+2. Create a branch on your git project with a partner. Commit a change to this branch 
+
 
 
 
