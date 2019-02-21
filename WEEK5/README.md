@@ -15,7 +15,8 @@ Switches are a useful logic tool and work similar to and if else statement. They
 
 int n;
 
-switch(n){
+switch(n){ 
+
 	case 0: 
 
 	break; 
@@ -34,7 +35,8 @@ switch(n){
 ## State machines 
 A state machine reads a series of inputs, and switch to a state depending on the input. There are different types of state machines, but we'll be dealing mainly with finite state machines. 
 
-[](https://i0.wp.com/blog.markshead.com/wp-content/uploads/2011/02/simple-state-machine.png?zoom=2&resize=304%2C183&ssl=1 "")
+[](https://i0.wp.com/blog.markshead.com/wp-content/uploads/2011/02/simple-state-machine.png?zoom=2&resize=304%2C183&ssl=1) 
+
 In this example, if we start on state s and have an input of a, it will change to state q, if we have an input of b, it will remain on state s, etc. 
 
 
