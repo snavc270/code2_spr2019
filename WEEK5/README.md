@@ -13,9 +13,9 @@ Switches are a useful logic tool and work similar to and if else statement. They
 
 #### [Syntax](https://processing.org/reference/switch.html "") 
 
-int n;
+	int n;
 
-switch(n){ 
+	switch(n){ 
 
 	case 0: 
 
@@ -28,14 +28,14 @@ switch(n){
 	break; 
 	
 	//can also set up a default state 
-}
+	}	
 
 
 
 ## State machines 
 A state machine reads a series of inputs, and switch to a state depending on the input. There are different types of state machines, but we'll be dealing mainly with finite state machines. 
 
-[](https://i0.wp.com/blog.markshead.com/wp-content/uploads/2011/02/simple-state-machine.png?zoom=2&resize=304%2C183&ssl=1) 
+![](https://i0.wp.com/blog.markshead.com/wp-content/uploads/2011/02/simple-state-machine.png) 
 
 In this example, if we start on state s and have an input of a, it will change to state q, if we have an input of b, it will remain on state s, etc. 
 
@@ -54,7 +54,9 @@ Branches are an important tool to work on certain aspects of a project without c
 
 ## Homework 
 1. Create a switch that changes scenes based on input (you can use multiple sketches that you've already programmed)
+//make character that jumps up and down 
 2. Create a state machine that changes the behavior of an object based on user input 
+//change the scene depending on key presses 
 3. Create a branch on your git project with a partner. Commit a change to this branch 
 
 ## Challenges 
