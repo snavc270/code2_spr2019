@@ -51,6 +51,14 @@ void setup(){
     if(high[i]<smallestHigh){
        smallestHigh=high[i]; 
     }
+    
+    if(low[i] < smallestLow){
+      smallestLow = low[i]; 
+    }
+    
+    if(low[i] > largestLow){
+      largestLow = low[i]; 
+    }
   }
   
   //how would we do this for the low temperatures? 
