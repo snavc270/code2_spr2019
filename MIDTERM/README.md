@@ -87,7 +87,8 @@ class Object{
 
 ### Question 3 
 Currently the sketch is set up for a single object. Add a new object every time you click the mouse, add gravity and wind to the objects. 
-![](https://github.com/snavc270/code2_spr2019/blob/master/MIDTERM/question2.gif?raw=true "")
+
+![](https://github.com/snavc270/code2_spr2019/blob/master/MIDTERM/question3.gif?raw=true "")
 
 ```
 
