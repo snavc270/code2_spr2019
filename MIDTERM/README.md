@@ -1,7 +1,7 @@
 ### Question 1 
 Fix the sketch for all syntax and logic errors so it matches the example gif. 
 
-![](https://github.com/snavc270/code1/blob/master/MIDTERM_2/question2.gif?raw=true "")
+![](https://github.com/snavc270/code2_spr2019/blob/master/MIDTERM/question1.gif?raw=true "")
 
 ```
 float radius;
@@ -30,6 +30,7 @@ float printText(){
 
 ### Question 2
 Fix the sketch so that the object is attracted to the mouse position. 
+![](https://github.com/snavc270/code2_spr2019/blob/master/MIDTERM/question2.gif?raw=true "")
 
 ```
 Object myObject; 
@@ -86,6 +87,7 @@ class Object{
 
 ### Question 3 
 Currently the sketch is set up for a single object. Add a new object every time you click the mouse, add gravity and wind to the objects. 
+![](https://github.com/snavc270/code2_spr2019/blob/master/MIDTERM/question2.gif?raw=true "")
 
 ```
 
