@@ -6,9 +6,12 @@
 int [] x = new int[0]; 
 int [] y = new int [0]; 
 
+String[] points; 
+
 void setup () {
   size(600, 600); 
   
+  points = loadStrings("lines.txt"); 
 }
 
 void draw() {
@@ -36,6 +39,7 @@ void mousePressed() {
   //append our x and y arrays with the current mouseX, mouseY positions whenever you click your mouse
   x = append(x, mouseX); 
   y = append(y, mouseY);
+  
 }
 
 void keyPressed() {
@@ -45,9 +49,10 @@ void keyPressed() {
     for (int i = 0; i<x.length; i++) {
       lines[i] = x[i] + "\t" + y[i]; //adding data from your positions array to the lines of your string array 
       //"\t" is code for tab, creates separate columns in your data table
-    }
+      points = append(points, lines[i]);   
+  }
     //save your data to a .txt file 
-    saveStrings("lines.txt", lines); 
+    saveStrings("lines.txt", points); 
     exit(); //stops the program when you're not pressing a key
   }
 }
