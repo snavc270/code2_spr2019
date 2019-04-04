@@ -1,67 +1,44 @@
-color [][] cGrid; 
-
-
-int cellsize= 10; 
-int size = 50; 
-
-//int cLength = size-2; 
-//int cRoughness = 90; 
-//int cWindyness = 60; 
-//
-//int x, y; 
-//int stepWidth;
-//int step; 
-//int totalRuns; 
-
-
+int cellSize = 10; 
+color colors[][]; 
+int cols, rows; 
 void setup(){
+  size(1000, 1000); 
+  noStroke(); 
+  cols = width/cellSize; 
+  rows = height/cellSize; 
   
-  size(650, 640);
-  cGrid = new color[width/cellsize][height/cellsize];
- 
-  //noiseSeed(0);
+  colors = new color[cols][rows]; 
 
-  
-  background(0);
-  noiseDetail(7, 0.4);  
-  
 }
 
-
 void draw(){
-  background(0); 
-
-  float increment = 0.09; 
-  float xoff = 0.0;
-  for (int x = 0; x < width/cellsize; x++) {
-    xoff += increment;
-    float yoff = 0.0;
-    for (int y = 0; y < height/cellsize; y++) {
-      yoff += increment;
-      float noiseVal = noise(xoff + millis()*.0005, yoff);
+  float inc = 0.09; 
+  float xoff = 0.0; 
+  for(int i = 0; i<cols; i++){
+    float yoff = 0.0; 
+    xoff += inc;
+    for(int j = 0; j<rows; j++){
+      //colors[i][j] = color(0, 0, random(100, 255));
+      yoff += inc; 
+      float noiseVal = noise(xoff + millis()*.0001, yoff);
       
-      if(noiseVal < 0.6){
-         color fillColor = color(map(noiseVal, 0, 0.6, 0, 153),
-        map(noiseVal, 0, 0.6, 76, 229), 
-        map(noiseVal, 0, 0.6, 153, 255));   
-        cGrid[x][y] = fillColor;
+        
+      if(noiseVal< .6){
+       color fillColor = color(map(noiseVal, 0, .6, 0, 150), 
+        map(noiseVal, 0, .6, 76, 225), 
+        map(noiseVal, 0, .6, 175, 255)); 
+        colors[i][j] = fillColor; 
       }
-      if(noiseVal >= 0.6){
-         color fillColor = color(map(noiseVal, 0.6, 1, 153, 255), 
-         map(noiseVal, 0.6, 1, 229, 255), map(noiseVal, 0, 0.6, 200, 255)); 
-         cGrid[x][y]= fillColor; 
+      if(noiseVal>=.6){
+        color fillColor = color(map(noiseVal, .6, 1, 153, 255), 
+        map(noiseVal, .6, 1, 229, 255), 
+        map(noiseVal, .6, 1, 200, 255));
+        colors[i][j] = fillColor; 
       }
-    } 
-  }
-
-  for(int i = 0; i<height/cellsize; i++){
-    for(int j = 0; j<width/cellsize; j++){
-      fill(cGrid[j][i]);
-      noStroke(); 
-      rect(j*cellsize, i*cellsize, cellsize, cellsize); 
       
+      println(noiseVal); 
+      fill(colors[i][j]); 
+      rect(i*cellSize, j*cellSize, cellSize, cellSize);
     }
   }
-   
-    
 }
