@@ -1,4 +1,4 @@
-#AGENDA
+# AGENDA
 1. Review HW 
 2. End of semester check in 
 3. Recursion 
@@ -12,7 +12,7 @@ Simply put, recursion is a function which calls itself inside it's function. A r
 1. Base case = terminating case that does not use recursion to generate it's value. 
 2. Rules = a set of rules that reduce all other cases closer to the base case.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RecursiveTree.JPG/300px-RecursiveTree.JPG "") 
+![](http://www.cis.upenn.edu/~cis110/12su/hw/hw03/sierpinski9.png "") 
 
 
 
