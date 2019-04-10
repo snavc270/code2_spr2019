@@ -7,7 +7,7 @@
 
 
 ### Recursion 
-Simply put, recursion is a function which calls itself inside it's function. A recursive method is defined by the following two properties: 
+Simply put, recursion is a function which calls inside it's function. A recursive method is defined by the following two properties: 
 
 1. Base case = terminating case that does not use recursion to generate it's value. 
 2. Rules = a set of rules that reduce all other cases closer to the base case.
