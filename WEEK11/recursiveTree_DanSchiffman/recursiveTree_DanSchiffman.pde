@@ -1,6 +1,6 @@
-Recursive Tree by Daniel Shiffman. 
+//Recursive Tree by Daniel Shiffman. 
 
-Renders a simple tree-like structure via recursion. The branching angle is calculated as a function of the horizontal mouse location. Move the mouse left and right to change the angle.
+//Renders a simple tree-like structure via recursion. The branching angle is calculated as a function of the horizontal mouse location. Move the mouse left and right to change the angle.
 
  
 float theta;   

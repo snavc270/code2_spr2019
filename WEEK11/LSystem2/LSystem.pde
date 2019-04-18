@@ -20,6 +20,7 @@ class LSystem {
     theta = radians(120.0);
     reset();
   }
+  
 
   void reset() {
     production = axiom;
@@ -38,6 +39,7 @@ class LSystem {
       steps = production.length();
     }
     for (int i = 0; i < steps; i++) {
+      //where rules are happening 
       char step = production.charAt(i);
       if (step == 'F') {
         rect(0, 0, -drawLength, -drawLength);
@@ -58,18 +60,19 @@ class LSystem {
       }
     }
   }
-  
+  //sets a limit for how many generations the system will produce
   void simulate(int gen) {
     while (getAge() < gen) {
       production = iterate(production, rule);
     }
   }
-
+  //iterates through our L system 
+// returns whatever string was calculated based on our generation
   String iterate(String prod_, String rule_) {
-    drawLength = drawLength * 0.6;
-    generations++;
-    String newProduction = prod_;          
+    drawLength = drawLength * 0.6; //think of our tree branches
+    generations++; 
+    String newProduction = prod_;     //same as replacing nextString with Current String     
     newProduction = newProduction.replaceAll("F", rule_);
-    return newProduction;
+    return newProduction; 
   }
 }
